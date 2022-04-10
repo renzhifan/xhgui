@@ -202,7 +202,10 @@ solution to capture profiling data to file which you can import using
 ```bash
 php external/import.php -f /path/to/jsonlinesfile.jsonl
 ```
-
+or
+```bash
+php external/import_xhpro.php -f /path/to/xhprofile.xhpro
+```
 **Warning**: Importing the same file twice will create duplicate profiles.
 
 [perftools/php-profiler]: https://github.com/perftools/php-profiler
