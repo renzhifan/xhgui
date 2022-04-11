@@ -206,6 +206,10 @@ or
 ```bash
 php external/import_xhpro.php -f /path/to/xhprofile.xhpro
 ```
+or batch
+```bash
+php external/import_xhprof_batch.php ~/japi-xhprof
+```
 **Warning**: Importing the same file twice will create duplicate profiles.
 
 [perftools/php-profiler]: https://github.com/perftools/php-profiler
