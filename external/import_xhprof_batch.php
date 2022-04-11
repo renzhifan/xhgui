@@ -6,7 +6,7 @@ require __DIR__ . '/../vendor/autoload.php';
 
 $app = new Application();
 $saver = $app->getSaver();
-if(!(isset($argv[1]) && !empty($argv[1]))){
+if(!isset($argv[1])){
     throw new RuntimeException('请输入文件路径');
 }
 $path = $argv[1];
